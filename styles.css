@@ -1,19 +1,30 @@
 body {
-    background-color:rgb(223, 214, 163);
+    background-color:#000000;
 
 }
 .main-title {
     color: crimson;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 
 ul li, ol li, p {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h3, h1, h4 {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: crimson;
 }
 
 h3 {
     font-size: 22px;
+    
 }
 h4 {
     font-size: 20px;
@@ -23,3 +34,4 @@ h4 {
     width: 350 px;
     height: auto;
 }
+
